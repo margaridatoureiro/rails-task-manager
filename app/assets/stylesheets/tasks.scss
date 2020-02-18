@@ -1,0 +1,51 @@
+// Place all the styles related to the tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+#index li {
+  list-style: none;
+  font-size: 30px;
+  text-align: left;
+}
+
+#index h1 {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+#index {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Arial;
+}
+
+#show {
+  width: 500px;
+  margin: 0 auto;
+  text-align: left;
+  font-family: Arial;
+ }
+
+
+#first {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+#second {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+#show i{
+ margin: 10px;
+}
+
+#show ul {
+  margin-left: 0;
+  padding-left: 0;
+}

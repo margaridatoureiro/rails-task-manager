@@ -1,0 +1,23 @@
+<div id='show'>
+<h2> <%= @task.details %></h2>
+
+<ul>
+  <li>
+    <% if @task.completed? %>
+    <div id="first">
+      <i class="far fa-check-square"></i>
+      <p>This task has been completed</p>
+    </div>
+      <% else %>
+    <div id="second">
+      <i class="far fa-square"></i>
+      <p>This task has not yet been completed</p>
+    </div>
+    <% end %>
+  </li>
+</ul>
+<%= link_to 'Update', edit_task_path(@task) %>
+<%= link_to 'Back to list', tasks_path %>
+
+</div>
+
